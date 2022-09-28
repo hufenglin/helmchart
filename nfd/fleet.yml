@@ -1,0 +1,8 @@
+name: nfd
+defaultNamespace: node-feature-discovery
+helm:
+  releaseName: nfd
+  repo: https://kubernetes-sigs.github.io/node-feature-discovery/charts
+  chart: nfd/node-feature-discovery
+  values:
+    installCRDs: true
