@@ -1,0 +1,9 @@
+name: onos-operator
+defaultNamespace: onos-operator
+helm:
+  releaseName: onos-operator
+  repo: https://charts.opencord.org
+  chart: onos-operator
+  version: 0.5.1
+  values:
+    installCRDs: true
