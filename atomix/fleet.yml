@@ -1,7 +1,0 @@
-name: atomix-controller
-defaultNamespace: atomix-controller
-helm:
-  releaseName: atomix-controller
-  chart: https://github.com/atomix/atomix-helm-charts/releases/download/atomix-controller-0.6.9/atomix-controller-0.6.9.tgz
-  values:
-    installCRDs: true
