@@ -1,0 +1,8 @@
+name: local-path-storage
+defaultNamespace: local-path-storage
+helm:
+  releaseName: local-path-storage
+  repo: https://github.com/rancher/local-path-provisioner/tree/master/deploy/chart/
+  chart: local-path-provisioner
+  values:
+    installCRDs: true
