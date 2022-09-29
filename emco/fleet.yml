@@ -1,0 +1,8 @@
+name: emco-monitor
+defaultNamespace: emco-monitor
+helm:
+  releaseName: emco-monitor
+  repo: https://gitlab.com/api/v4/projects/29353813/packages/helm/stable
+  chart: emco/monitor
+  values:
+    installCRDs: true
