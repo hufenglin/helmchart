@@ -1,7 +1,0 @@
-name: atomix-raft-storage
-defaultNamespace: atomix-raft-storage
-helm:
-  releaseName: atomix-raft-storage
-  chart: https://github.com/atomix/atomix-helm-charts/releases/download/atomix-raft-storage-0.1.25/atomix-raft-storage-0.1.25.tgz
-  values:
-    installCRDs: true
