@@ -1,7 +1,9 @@
-name: local-path-storage
-defaultNamespace: local-path-storage
+name: local-path-provisioner
+defaultNamespace: local-path-provisioner
 helm:
-  releaseName: local-path-storage
-  chart: https://raw.githubusercontent.com/rancher/local-path-provisioner/v0.0.22/deploy/local-path-storage.yaml
+  releaseName: local-path-provisioner
+  repo: https://ebrianne.github.io/helm-charts
+  chart: local-path-provisioner
+  version: 0.0.21
   values:
     installCRDs: true
