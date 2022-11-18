@@ -3,4 +3,5 @@
 # The default namespace to apply to resources that are namespaced
 # but do not specify a namespace.  In this example no resources
 # are configured with a namespace so this default will apply
-defaultNamespace: multus-manifest-yaml
+name: multus
+defaultNamespace: device-plugin
